@@ -3,7 +3,7 @@
 // considerando maiúsculas e minúsculas. Letras acentuadas não contam.
 
 function contarVogais(texto) {
-  const vogais = "aeiouáàâãéêíóôõú";
+  const vogais = "aeiou";
   let total = 0;
 
   for (const char of texto.toLowerCase()) {
