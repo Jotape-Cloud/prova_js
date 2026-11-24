@@ -2,7 +2,7 @@
 // Receba dois números e retorne a soma.
 
 function soma(a, b) {
-  // escreva sua solução aqui
+  return a+b
 }
 
 // Testes (não altere esta parte)
