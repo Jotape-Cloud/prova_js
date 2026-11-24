@@ -2,7 +2,7 @@
 // Receba um número inteiro e retorne true se for par, ou false se não for.
 
 function ehPar(n) {
-  // escreva sua solução aqui
+  return n % 2 === 0
 }
 
 // Testes (não altere esta parte)
