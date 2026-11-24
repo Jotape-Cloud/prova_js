@@ -8,7 +8,6 @@ function ehPalindromo(texto) {
   
   return textoMinusculo === textoInvertido;
 }
-}
 
 // Testes (não altere esta parte)
 console.log(ehPalindromo("Arara") === true ? "OK" : "ERRO");
