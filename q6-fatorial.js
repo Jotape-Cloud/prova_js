@@ -2,7 +2,12 @@
 // Receba um inteiro não negativo e retorne o fatorial de n, calculado com um laço.
 
 function fatorial(n) {
-  // escreva sua solução aqui
+  if (n < 0) return null;
+  let resultado = 1;
+  for (let i = 2; i <= n; i++) {
+    resultado *= i;
+  }
+  return resultado;
 }
 
 // Testes (não altere esta parte)
