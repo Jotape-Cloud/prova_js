@@ -3,7 +3,24 @@
 // incluindo n se ele for primo. 0 e 1 não são primos.
 
 function contarPrimos(n) {
-  // escreva sua solução aqui
+    let quantidadePrimos = 0;
+  
+    for (let num = 2; num <= n; num++) {
+        let ehPrimo = true;
+
+        for (let divisor = 2; divisor <= Math.sqrt(num); divisor++) {
+            if (num % divisor === 0) {
+                ehPrimo = false;
+                break;
+            }
+        }
+      
+        if (ehPrimo) {
+            quantidadePrimos++;
+        }
+    }
+
+    return quantidadePrimos;
 }
 
 // Testes (não altere esta parte)
