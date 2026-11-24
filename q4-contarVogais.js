@@ -3,7 +3,16 @@
 // considerando maiúsculas e minúsculas. Letras acentuadas não contam.
 
 function contarVogais(texto) {
-  // escreva sua solução aqui
+  const vogais = "aeiouáàâãéêíóôõú";
+  let total = 0;
+
+  for (const char of texto.toLowerCase()) {
+    if (vogais.includes(char)) {
+      total++;
+    }
+  }
+
+  return total;
 }
 
 // Testes (não altere esta parte)
