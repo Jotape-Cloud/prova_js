@@ -3,7 +3,11 @@
 // Um array vazio deve resultar em 0.
 
 function somaArray(arr) {
-  // escreva sua solução aqui
+let soma = 0;
+  for (let i = 0; i < arr.length; i++) {
+    soma += arr[i];
+  }
+  return soma;
 }
 
 // Testes (não altere esta parte)
